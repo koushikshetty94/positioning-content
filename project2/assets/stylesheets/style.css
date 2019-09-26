@@ -1,0 +1,276 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ------------------------------------------------------------------------------------------ */
+/* general */
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* ------------------------------------------------------------------------------------------ */
+/* section1 */
+/* headers */
+.section1{
+    background-color: #5385C1;
+    padding-top:3%;
+    color: whitesmoke;
+}
+.logo{
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.links{
+    text-transform: capitalize;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: normal;
+    margin-left: 10px;
+    color: whitesmoke;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+.heading{
+    text-transform: capitalize;
+    font-size: 34px;
+    text-align: center;
+    padding: 4% 0 2% 0;
+}
+.para{
+    text-transform: capitalize;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 10%;
+    line-height: 1.5;
+}
+/* section2 */
+.subheading{
+    text-transform: capitalize;
+    font-size: 22px;
+    text-align: left;
+    color: #5385C1;
+    font-weight:bold;
+}
+.para1{
+    text-transform: capitalize;
+    font-size: 18px;
+    text-align: left;
+    color: grey;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.btn{
+    text-transform: capitalize;
+    background-color: #5385C1;
+    border-color: #5385C1;
+    padding: 5px 15px;
+    color: whitesmoke;
+    margin: 30px 0;
+}
+.section2{
+    background-color: whitesmoke;
+    padding: 80px 0;
+}
+.left{
+    float:left;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.col1{
+    width:33%;
+    padding: 0 40px;
+}
+.col2{
+    width:33%;
+    padding: 0 40px;
+}
+.col3{
+    width:33%;
+    padding: 0 40px;
+}
+/* section3 */
+.subheading1{
+    text-transform: capitalize;
+    font-size: 40px;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom:0px;
+    /* color:whitesmoke; */
+}
+h4{
+    text-transform:capitalize;
+    line-height: 1.5;
+    font-size: 22px;
+    text-align: center;
+    color: whitesmoke;
+
+}
+h5{
+    text-transform:capitalize;
+    line-height: 1.5;
+    font-size: 18px;
+    text-align: center;
+    color:whitesmoke;
+    
+}
+.para2{
+    text-transform: capitalize;
+    font-size: 18px;
+    text-align: center;
+    /* color:whitesmoke; */
+    margin-top: 20px;
+    line-height: 1.5;
+    padding-bottom: 4%;
+}
+.box1{
+    width:20%;
+    border: 1px solid whitesmoke;
+    text-align: center;
+    padding: 80px 0;
+    margin: 0 2.5%;
+
+}
+.image{
+    border-radius: 50%;
+
+}
+.left{
+    float:left;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.section3{
+    text-align: center;
+    background-color: #5385C1;
+    padding: 10% 0 2% 0;
+    color: whitesmoke;
+}
+/* section4 */
+.section4{
+    /* text-align: center; */
+    background-color: whitesmoke;
+    padding: 10% 0 0 0;
+    color: #5385C1;
+}
+.para3{
+    text-transform: capitalize;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.5;
+    padding-bottom: 4%;
+
+    color:grey;
+}
+.sec4{
+    width:50%;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.image1{
+    text-align: left;
+}
+hr{
+    margin: 5% 0 2% 0;
+}
+/* footer */
+.foot{
+    background-color: whitesmoke; 
+}
+.small{
+    line-height: 1.5;
+    font-size:12px;
+    color: grey;
+}
+.footl{
+    color: #5385C1;
+    font-size:20px;
+    margin-left: 10px;
+}
